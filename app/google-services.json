@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "780851242590",
+    "firebase_url": "https://arab-discount-market.firebaseio.com",
+    "project_id": "arab-discount-market",
+    "storage_bucket": "arab-discount-market.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780851242590:android:8decec577bb80547",
+        "android_client_info": {
+          "package_name": "com.ahmet.arabdiscountmarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780851242590-28drtf8947ictrm0iq96jf26b5eebbot.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ahmet.arabdiscountmarket",
+            "certificate_hash": "2bb2b0ebde58be524b4f6e77ad2fbb7becd179af"
+          }
+        },
+        {
+          "client_id": "780851242590-d2k1j0u1ah4kua0r37hqosobnrcokn5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo6Uo08IIjyllRTWZssOIskF74HC8hF7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780851242590-d2k1j0u1ah4kua0r37hqosobnrcokn5m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780851242590:android:dc1634c2f9aa4227",
+        "android_client_info": {
+          "package_name": "com.ahmet.orderfoods"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780851242590-d2k1j0u1ah4kua0r37hqosobnrcokn5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo6Uo08IIjyllRTWZssOIskF74HC8hF7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780851242590-d2k1j0u1ah4kua0r37hqosobnrcokn5m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780851242590:android:279333bc50ed86ee",
+        "android_client_info": {
+          "package_name": "com.ahmet.orderfoodserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780851242590-d2k1j0u1ah4kua0r37hqosobnrcokn5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo6Uo08IIjyllRTWZssOIskF74HC8hF7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780851242590-d2k1j0u1ah4kua0r37hqosobnrcokn5m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

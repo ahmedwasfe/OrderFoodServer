@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/width200"
+        android:layout_height="@dimen/width200"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/logo_app"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="@dimen/width200"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/slogan"
+        android:textSize="@dimen/textCardSize"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/nabila"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:layout_width="@dimen/widthheight"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/textCardSize"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_facebook_login"
+        android:text="@string/facebook_login"
+        android:textAllCaps="false"
+        android:textSize="@dimen/textCardSize"
+        android:fontFamily="@font/nabila"
+        android:textColor="@color/colorWhite"
+        android:drawableLeft="@drawable/facebook"
+        app:layout_constraintBottom_toTopOf="@id/btn_go_to_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_go_to_login"
+        android:layout_width="@dimen/widthheight"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/textCardSize"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_sign_up"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textSize="@dimen/textCardSize"
+        android:fontFamily="@font/nabila"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
